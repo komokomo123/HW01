@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 합계를 구하는 함수
+// 합계를 구하는 함수.
 int getSum(int arr[], int size) {
     int sum = 0;
     for (int i = 0; i < size; i++) {
@@ -10,7 +10,7 @@ int getSum(int arr[], int size) {
     return sum;
 }
 
-// 평균을 구하는 함수
+// 평균을 구하는 함수.
 double getAverage(int arr[], int size) {
     int sum = getSum(arr, size);
     double avg = (double)sum / size;
